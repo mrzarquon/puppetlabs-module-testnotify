@@ -1,5 +1,5 @@
 class testnotify{
 
-  notify{"${ipaddress}"}
+  notify{"$::ipaddress":}
 
 }
